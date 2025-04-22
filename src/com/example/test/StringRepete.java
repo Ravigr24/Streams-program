@@ -56,5 +56,4 @@ public class StringRepete {
         // Print the result
         wordCounts.forEach((word, count) -> System.out.println(word + " - " + count));
     }
-
 }

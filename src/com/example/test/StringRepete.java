@@ -7,25 +7,26 @@ import java.util.stream.Collectors;
 
 public class StringRepete {
     public static void main(String args[]) {
-//        Scanner sc = new Scanner(System.in);
-//        //String str = sc.nextLine();
-//        String str = "Hello world hello Java world Java";
-//        String copy = str.toLowerCase();
-//
-//        int[] count = new int[26];
-//
-//        for (char c : copy.toCharArray()) {
-//            if (c >= 'a' && c <= 'z') {
-//                count[c - 'a']++;
-//            }
-//        }
-//        for (int i = 0; i < count.length; i++) {
-//            if (count[i] > 0) {
-//                char letter = (char) ('a' + i);
-//                System.out.println(letter + "-" + count[i]);
-//            }
-//        }
+        Scanner sc = new Scanner(System.in);
+        //String str = sc.nextLine();
+        String str = "Hello world hello Java world Java";
+        String copy = str.toLowerCase();
 
+        int[] count = new int[26];
+
+        for (char c : copy.toCharArray()) {
+            if (c >= 'a' && c <= 'z') {
+                count[c - 'a']++;
+            }
+        }
+        for (int i = 0; i < count.length; i++) {
+            if (count[i] > 0) {
+                char letter = (char) ('a' + i);
+                System.out.println(letter + "-" + count[i]);
+            }
+        }
+
+        System.out.println("Methed ");
         String input = "Hello world hello Java world Java  112" +
                 "";
         StringRepete sr = new StringRepete();

@@ -3,12 +3,11 @@ package com.example.test;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-public class HR {
+public class FileReadingProgramme {
 
     public static void main(String[] args) {
         String filepath = "SampleFile.txt";
